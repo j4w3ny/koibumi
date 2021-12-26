@@ -1,5 +1,5 @@
 [package]
-name = "akarin"
+name = "koibumi"
 version = "0.1.0"
 edition = "2021"
 build = "build.rs"
@@ -9,4 +9,4 @@ build = "build.rs"
 macroquad = "0.3"
 
 [build-dependencies]
-akarin-build-tools = { path = "../build-tools" }
+koibumi-build-tools = { path = "../build-tools" }

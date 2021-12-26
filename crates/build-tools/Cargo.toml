@@ -1,5 +1,5 @@
 [package]
-name = "akarin-build-tools"
+name = "koibumi-build-tools"
 version = "0.1.0"
 edition = "2021"
 
