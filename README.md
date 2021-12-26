@@ -2,6 +2,8 @@
 
 > A Visual Novel Engine written in Rust.
 
+**Notice:** koibumi is still in **early stage**(active development) and some features may not work yet. Please be patient and wait for new update.
+
 ## Goal
 
 - Cross-Platform Support
