@@ -1,3 +1,5 @@
 [workspace]
 
 members = ["crates/*"]
+default-members = ["crates/koibumi"]
+resolver = "2"

@@ -14,9 +14,6 @@ Like many other game engine, koibumi takes some steps to setup a game.
 
 As the first load, koibumi will collect some info about the system(audio, graphic, etc.)
 
-This step is to ensure that koibumi won't crash.
-
 Koibumi could automatically find the default config for itself, but you can change it still.
 
-As the config collected, koibumi will run the initial script(which defined by `init.rhai` in default).
-
+As the config collected, koibumi will run the initial script(which defined by `init.ks` in default).
