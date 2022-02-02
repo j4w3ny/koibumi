@@ -1,5 +1,5 @@
 [workspace]
 
 members = ["crates/*"]
-default-members = ["crates/koibumi"]
+default-members = ["crates/koibumi", "crates/koibumi-script"]
 resolver = "2"

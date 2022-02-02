@@ -30,6 +30,7 @@ impl epi::backend::RepaintSignal for ExampleRepaintSignal {
 
 /// A simple egui + wgpu + winit based example.
 fn main() {
+    // config initialzation.
     let mut builder = pretty_env_logger::formatted_builder();
     builder
         .filter(Some("koibumi"), log::LevelFilter::Info)
@@ -54,7 +55,7 @@ fn main() {
 
     // WGPU 0.11+ support force fallback (if HW implementation not supported), set it to true or false (optional).
     let adapter = pollster::block_on(instance.request_adapter(&wgpu::RequestAdapterOptions {
-        power_preference: wgpu::PowerPreference::HighPerformance,
+        power_preference: wgpu::PowerPreference::LowPower,
         compatible_surface: Some(&surface),
         force_fallback_adapter: false,
     }))

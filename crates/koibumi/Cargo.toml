@@ -7,9 +7,6 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 [dependencies]
 
-# Audio Interface
-# cpal = "0.13.4"
-
 # UI
 egui = "0.16.1"
 egui_wgpu_backend = "0.16.0"
@@ -31,10 +28,10 @@ pollster = "0.2"
 egui_demo_lib = "0.16"
 
 # Image Processing
-image = "0.23.14"
+image = "0.24.0"
 
 # Audio
-rodio = "0.15.0"
+quad-snd = "0.2.3"
 
 [build-dependencies]
 koibumi-build-tools = { path = "../build-tools" }
